@@ -29,7 +29,7 @@ class Onboarding extends StatelessWidget {
               Text(
                 'Order now and treat \n yourself to a delicious meal!',
                 textAlign: TextAlign.center,
-                style: GoogleFonts.rubik(fontSize: 21, fontWeight: FontWeight.w500, color: Color.fromARGB(255,190,189,189)),
+                style: GoogleFonts.rubik(fontSize: 21, fontWeight: FontWeight.w500, color: const Color.fromARGB(255,190,189,189)),
               ), 
               const SizedBox(height: 30),
               ElevatedButton(
@@ -40,7 +40,7 @@ class Onboarding extends StatelessWidget {
                 ),
                 onPressed: () {
                   Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const Dashboard()));
-                }, child: Text('Order Now', style: GoogleFonts.rubik(fontSize: 20, fontWeight: FontWeight.w600, color: Color.fromARGB(255, 34, 25, 51)),))
+                }, child: Text('Order Now', style: GoogleFonts.rubik(fontSize: 20, fontWeight: FontWeight.w600, color: const Color.fromARGB(255, 34, 25, 51)),))
             ],
           ),
         ),
