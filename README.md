@@ -1,16 +1,40 @@
-# quickbite_food_delivery_app_ui_challenge
+# QuickBite Delivery UI
 
-A new Flutter project.
+A beautiful dribbble from design cheffed up with flutter.
 
-## Getting Started
+# Getting Started
 
-This project is a starting point for a Flutter application.
+1. Make sure you have Flutter and Dart installed on your system.
+2. Clone the repository and run the following commands:
+     * flutter pub get
+     * flutter run
 
-A few resources to get you started if this is your first Flutter project:
+# Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<h3>Dribble Design</h3>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<div>
+  <img width="1000" alt="Dribble Design" src="assets/screenshots/Dribble_Design.png">
+</div>
+
+<h3>Landing Page</h3>
+
+<div>
+  <img width="300" alt="Landing" src="assets/screenshots/Landing_Page.png">
+</div>
+
+<h3>Dashboard</h3>
+
+<div>
+  <img width="300" alt="Dashboard" src="assets/screenshots/Landing_Page.png">
+</div>
+
+<h3>Meal Details Page</h3>
+
+<div>
+  <img width="300" alt="Meal_Details" src="assets/screenshots/Meal_detail_page.png">
+</div>
+
+# Contributing
+
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or a pull request.
