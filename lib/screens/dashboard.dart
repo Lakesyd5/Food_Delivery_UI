@@ -5,6 +5,8 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:quickbite_food_delivery_app_ui_challenge/screens/pages/cart_page.dart';
 import 'package:quickbite_food_delivery_app_ui_challenge/screens/pages/favorites_page.dart';
 import 'package:quickbite_food_delivery_app_ui_challenge/screens/pages/home_page.dart';
+import 'package:quickbite_food_delivery_app_ui_challenge/screens/pages/settings.dart';
+import 'package:quickbite_food_delivery_app_ui_challenge/screens/pages/users_page.dart';
 
 class Dashboard extends StatefulWidget {
   const Dashboard({super.key});
@@ -26,6 +28,8 @@ class _DashboardState extends State<Dashboard> {
     CartPage(),
     FavoritesPage(),
     HomePage(),
+    UsersPage(),
+    SettingsPage()
   ];
 
   int selectedIndex = 2;

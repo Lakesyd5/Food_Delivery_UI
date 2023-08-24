@@ -6,7 +6,8 @@ class Meal {
     this.imagePath,
     this.price,
     this.description,
-    this.mealCategoryId
+    this.mealCategoryId,
+    this.quantity = 1,
   });
 
   String ? category;
@@ -14,6 +15,7 @@ class Meal {
   String ? mealTitle;
   String ? imagePath;
   num ? price;
+  int quantity;
   String ? description;
   dynamic mealCategoryId;
 }
