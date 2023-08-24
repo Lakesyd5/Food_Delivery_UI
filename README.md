@@ -26,7 +26,7 @@ A beautiful dribbble from design cheffed up with flutter.
 <h3>Dashboard</h3>
 
 <div>
-  <img width="300" alt="Dashboard" src="assets/screenshots/Landing_Page.png">
+  <img width="300" alt="Dashboard" src="assets/screenshots/Dashboard.png">
 </div>
 
 <h3>Meal Details Page</h3>
